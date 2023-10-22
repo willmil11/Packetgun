@@ -1,0 +1,38 @@
+{
+  "name": "packetgun-frontend",
+  "version": "1.0.0",
+  "description": "Packetgun-frontend is the frontend node.js module that is used with the Packetgun-backend module to exenge data easily between the two.",
+  "main": "packetgun-frontend.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/willmil11/Packetgun.git"
+  },
+  "keywords": [
+    "packet",
+    "packetgun",
+    "node.js",
+    "node",
+    "js",
+    "javascript",
+    "frontend",
+    "frontend-tobackend",
+    "web",
+    "packets",
+    "data",
+    "send",
+    "receive",
+    "websocket",
+    "ws",
+    "easynodes",
+    "willmil11"
+  ],
+  "author": "willmil11",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/willmil11/Packetgun/issues"
+  },
+  "homepage": "https://github.com/willmil11/Packetgun#readme"
+}
