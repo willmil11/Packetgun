@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "easynodes": "^1.0.1",
+    "packetgun-backend": "^1.0.0",
+    "packetgun-frontend": "^1.0.0"
+  }
+}

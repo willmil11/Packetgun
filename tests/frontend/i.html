@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Packetgun test
+        </title>
+    </head>
+    <body>
+    </body>
+</html>
+<script src="/node_modules/packetgun-frontend/packetgun-frontend.js"></script>
+<script>
+    //First you'll need to wrap the code in an async function in order to be able to use await
+    var app = async function(){
+        //Send the request
+        var response = await packetgun.classic("89.159.202.47:4321", {
+            //exit_code will be client_exit_code on the backend side
+            exit_code: 0,
+            data: "Hello world!"
+        })
+
+        //Log request exit code
+        console.log(response.exit_code)
+        //Log server exit code
+        console.log(response.server_exit_code)
+        //Log server data
+        console.log(response.data)
+    }
+    app()
+</script>
